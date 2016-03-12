@@ -1,0 +1,133 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/orange"
+              android:orientation="horizontal"
+              android:padding="6dip"
+              android:minHeight="?android:attr/listPreferredItemHeight">
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buy_box"
+        android:layout_gravity="center"
+        android:buttonTint="@color/grey"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:paddingLeft="10dp">
+
+        <TextView
+            android:id="@+id/advance_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:paddingTop="4dp"
+            android:text="Description"
+            android:textSize="18sp"
+
+            />
+
+        <LinearLayout
+            android:id="@+id/credit_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="6dp"
+            android:layout_below="@id/advance_name"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:id="@+id/blue_credit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="2dp"
+                android:background="@drawable/blue_credit"
+                android:gravity="center"
+                android:minEms="2"
+                android:padding="1dp"
+                android:text="0"
+                android:textSize="10sp"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:id="@+id/green_credit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="2dp"
+                android:background="@drawable/green_credit"
+                android:gravity="center"
+                android:minEms="2"
+                android:padding="1dp"
+                android:text="0"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/orange_credit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="2dp"
+                android:background="@drawable/orange_credit"
+                android:gravity="center"
+                android:minEms="2"
+                android:padding="1dp"
+                android:text="0"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/red_credit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="2dp"
+                android:background="@drawable/red_credit"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:minEms="2"
+                android:padding="1dp"
+                android:text="0"
+                android:textSize="10sp"
+                />
+
+            <TextView
+                android:id="@+id/yellow_credit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="2dp"
+                android:background="@drawable/yellow_credit"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:minEms="2"
+                android:padding="1dp"
+                android:text="0"
+                android:textSize="10sp"
+                />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/advance_price"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/advance_name"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:minEms="3"
+        android:text="0"
+        android:textSize="16sp"/>
+
+
+</LinearLayout>
