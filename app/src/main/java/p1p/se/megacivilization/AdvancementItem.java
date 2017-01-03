@@ -1,6 +1,5 @@
 package p1p.se.megacivilization;
 
-import android.p1p.se.megacivilization.R;
 import android.util.Log;
 
 import java.util.HashMap;

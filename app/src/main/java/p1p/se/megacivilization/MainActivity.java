@@ -1,6 +1,5 @@
 package p1p.se.megacivilization;
 
-import android.p1p.se.megacivilization.R;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
