@@ -1,9 +1,8 @@
-package android.p1p.se.megacivilization;
+package p1p.se.megacivilization;
 
 import android.content.Context;
 
 import java.io.BufferedReader;
-import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;

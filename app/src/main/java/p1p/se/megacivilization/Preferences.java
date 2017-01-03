@@ -1,4 +1,4 @@
-package android.p1p.se.megacivilization;
+package p1p.se.megacivilization;
 
 import android.content.Context;
 import android.content.SharedPreferences;

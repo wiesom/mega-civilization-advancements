@@ -1,6 +1,7 @@
-package android.p1p.se.megacivilization;
+package p1p.se.megacivilization;
 
 import android.content.Context;
+import android.p1p.se.megacivilization.R;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;

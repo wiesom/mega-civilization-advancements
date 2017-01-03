@@ -1,8 +1,8 @@
-package android.p1p.se.megacivilization;
+package p1p.se.megacivilization;
 
 
-import android.app.Activity;
 import android.content.DialogInterface;
+import android.p1p.se.megacivilization.R;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;

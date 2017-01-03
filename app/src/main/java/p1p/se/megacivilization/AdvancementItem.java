@@ -1,5 +1,6 @@
-package android.p1p.se.megacivilization;
+package p1p.se.megacivilization;
 
+import android.p1p.se.megacivilization.R;
 import android.util.Log;
 
 import java.util.HashMap;
@@ -30,7 +31,7 @@ public class AdvancementItem {
     private int discount = 0;
 
     private static final HashMap<String,Integer> colors = new HashMap<String, Integer>(){{
-        put("BLUE",R.color.blue);
+        put("BLUE", R.color.blue);
         put("RED",R.color.red);
         put("GREEN",R.color.green);
         put("YELLOW",R.color.yellow);
