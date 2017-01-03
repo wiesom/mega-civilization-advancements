@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="android.p1p.se.megacivilization" >
+    package="p1p.se.megacivilization" >
 
     <application
         android:allowBackup="true"
