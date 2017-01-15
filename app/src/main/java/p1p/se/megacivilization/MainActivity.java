@@ -18,7 +18,11 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
-
+/*
+ TODO:
+ * Temporary bonus, like Library/Anatomy, is not handled
+ * Killed app not reset correctly. Example: discount on next advancement
+ */
 public class MainActivity extends AppCompatActivity {
     private static final String TAG = "MainActivity";
     private ArrayList<AdvancementItem> list;
@@ -125,8 +129,16 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
+            case R.id.action_reset_5:
+                resetGame(10);
+                return true;
+
+            case R.id.action_reset_6:
+                resetGame(5);
+                return true;
+
             case R.id.action_reset:
-                resetGame();
+                resetGame(0);
                 return true;
 
             case R.id.action_buy:
@@ -159,12 +171,12 @@ public class MainActivity extends AppCompatActivity {
         super.onResume();
     }
 
-    private void resetGame(){
-        blue = 0;
-        green = 0;
-        red = 0;
-        yellow = 0;
-        orange = 0;
+    private void resetGame(int defaultValue){
+        blue = defaultValue;
+        green = defaultValue;
+        red = defaultValue;
+        yellow = defaultValue;
+        orange = defaultValue;
         storeData(new HashSet<String>());
         setOwnedAdvancements(preferences.getOwned());
         upDateValues();

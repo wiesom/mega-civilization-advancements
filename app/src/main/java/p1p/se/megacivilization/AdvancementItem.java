@@ -70,6 +70,10 @@ public class AdvancementItem {
         return price - discount;
     }
 
+    public String priceAsString(){
+        return price() == originalPrice ? ""+price() : price() + " ("+originalPrice+")";
+    }
+
     private boolean hasColor(String color){
         boolean result;
         if(colorString.contains(color))

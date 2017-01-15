@@ -17,7 +17,7 @@ public class AdvancementItemDialog {
 
         View titleLayout = activity.getLayoutInflater().inflate(R.layout.custom_dialog_title, null);
         ((TextView) titleLayout.findViewById(R.id.dialog_title)).setText(item.name);
-        ((TextView) titleLayout.findViewById(R.id.dialog_title_price)).setText(item.price() + "");
+        ((TextView) titleLayout.findViewById(R.id.dialog_title_price)).setText(item.priceAsString());
         titleLayout.setBackgroundResource(item.color);
         alertDialogBuilder.setCustomTitle(titleLayout);
 

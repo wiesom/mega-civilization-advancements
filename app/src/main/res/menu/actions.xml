@@ -9,6 +9,12 @@
         android:enabled="false"/>
 
     <!-- Settings, should always be in the overflow -->
+    <item android:id="@+id/action_reset_5"
+        android:title="@string/action_reset_5"
+        app:showAsAction="never"/>
+    <item android:id="@+id/action_reset_6"
+        android:title="@string/action_reset_6"
+        app:showAsAction="never"/>
     <item android:id="@+id/action_reset"
           android:title="@string/action_reset"
           app:showAsAction="never"/>

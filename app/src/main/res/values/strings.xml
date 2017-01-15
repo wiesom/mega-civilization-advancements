@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">MegaCivilization</string>
     <string name="action_buy">Buy: 0</string>
-    <string name="action_reset">Reset</string>
+    <string name="action_reset_5">Reset: 5 players</string>
+    <string name="action_reset_6">Reset: 6 players</string>
+    <string name="action_reset">Reset: 7-18 players</string>
 </resources>

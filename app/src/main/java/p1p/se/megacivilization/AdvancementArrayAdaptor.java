@@ -63,8 +63,9 @@ public class AdvancementArrayAdaptor extends ArrayAdapter<AdvancementItem> {
         holder.nameView.setText(item.name);
         if (item.owned)
             holder.costView.setText("");
-        else
-            holder.costView.setText("" + item.price());
+        else {
+            holder.costView.setText(item.priceAsString());
+        }
         ViewHelper.setCreditValue(holder.blue_credit, item.blue);
         ViewHelper.setCreditValue(holder.red_credit, item.red);
         ViewHelper.setCreditValue(holder.orange_credit, item.orange);
