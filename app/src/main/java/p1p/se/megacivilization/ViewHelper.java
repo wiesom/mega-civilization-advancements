@@ -12,7 +12,7 @@ import java.util.Iterator;
 public class ViewHelper {
     private static final String TAG = "ViewHelper";
     public static void setCreditValue(TextView text, int value) {
-        text.setText("" + value);
+        text.setText(String.format("%d", value));
         if (value == 0)
             text.getBackground().setAlpha(10);
         else

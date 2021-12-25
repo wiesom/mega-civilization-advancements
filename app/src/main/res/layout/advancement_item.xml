@@ -5,15 +5,17 @@
               android:orientation="horizontal"
               android:padding="6dip"
               android:minHeight="?android:attr/listPreferredItemHeight">
+
     <CheckBox
+        android:id="@+id/buy_box"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/buy_box"
         android:layout_gravity="center"
         android:buttonTint="@color/grey"
         android:focusable="false"
         android:focusableInTouchMode="false"
-        />
+        android:minWidth="48dp"
+        android:minHeight="48dp" />
 
     <RelativeLayout
         android:layout_width="fill_parent"

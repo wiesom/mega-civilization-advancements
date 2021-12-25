@@ -2,10 +2,11 @@ package p1p.se.megacivilization;
 
 
 import android.content.DialogInterface;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class AdvancementItemDialog {
 
@@ -58,8 +59,7 @@ public class AdvancementItemDialog {
     }
 
 
-
-    public void show(){
+    public void show() {
         alertDialog.show();
     }
 }
